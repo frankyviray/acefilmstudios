@@ -1,0 +1,11 @@
+.mobile-nav-bar{
+        margin-right: -13px;
+}
+
+.mobile-header-toggle-btn{
+        border:none !important;        
+}
+
+.mobile-header-toggle-btn:onclick{
+        border:none !important;
+}

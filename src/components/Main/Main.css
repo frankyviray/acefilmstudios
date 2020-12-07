@@ -1,0 +1,139 @@
+.main  {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: black;
+    
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* .main-title>h1 {
+    padding: 1vw;
+    font-size: 4vw;
+    letter-spacing: 1.2vw;
+    color: white;
+    font-weight: bold;      
+    background-color: #EF3D42;
+    width: fit-content;
+} */
+.ace-logo-movie {    
+    width: 200px;
+    margin-bottom: 5px;       
+    margin-left:20px;
+}
+
+.ace-logo-txt{
+    width: 150px;
+ 
+}
+
+.logo-img > p {
+    color: red;
+    font-size: xx-large;
+}
+
+.main-title > p {    
+    display: flex;
+    justify-content: center;
+    font-size: 2.3vw;
+    text-transform: capitalize;
+    color: #d5d5d5;
+    
+}   
+
+@media only screen and (max-width: 499px){
+  
+    body{
+        height: 830px;
+    }
+    
+    .main{
+        position: relative;
+        width: 100vw;
+        /* top: -3%; */
+        background-color: black;
+    }
+
+    .main-title{
+        display: flex;
+        align-items: center;
+        /* margin-left: 10vw;
+        margin-right: 10vw; */
+        
+    }
+
+    /* .main-title > h1 {
+        background-color: transparent;
+        font-size: 16vw;
+        letter-spacing: 1;
+        line-height: 1.4;
+    } */
+
+    .logo-img{      
+       width: fit-content;
+       align-items: center;
+    }
+    
+    .ace-logo-movie{
+        /* height: 30vw; */
+    }
+
+    .main-title > p{
+        font-size: 25px;       
+    }
+
+    .logo-img > p{
+        font-size: larger;
+        color: red;
+    }
+    /* .main-title>h1>span {
+        background-color: #EF3D42;
+    } */
+
+}
+
+@media only screen and (min-width: 500px) and (max-width:820px){ 
+   
+    /* .main-title>h1{
+        font-size: 6vw;
+        margin-left: 10vw;
+        margin-right:10vw;
+    } */
+    
+    
+
+     .ace-logo-movie{
+         width: 100px;
+         margin-bottom: 0;
+         margin-left: 0;
+     }
+
+    .main-title > p{
+        font-size: 5vw;       
+    }
+
+}
+
+/* Small devices */
+/* @media only screen and (min-width: 500px) and (max-width:730px){  */
+@media only screen and (min-width: 821px) and (max-width:1024px){ 
+    
+    /* .main-title>h1{
+        font-size: 8vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    } */
+  
+    
+
+    .main-title > p{
+        font-size: 5vw;       
+    }
+ }

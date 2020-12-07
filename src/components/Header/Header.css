@@ -1,0 +1,129 @@
+.header{
+    /* display: flex;    */
+    background-color: black;
+    flex-direction: row-reverse;
+    /* position: fixed !; */
+    /* height: 68px */
+    /* width: 100%; */
+   
+}
+
+.header-items{
+    display: flex;   
+}
+
+.header-item{        
+    color: white !important;    
+    text-transform: uppercase;
+    cursor: pointer;   
+    margin: 10px;   
+    font-size: 18px;
+   
+}
+
+
+
+.header-item:hover{
+    color: #EF3D42 !important;
+    transition: 500ms;
+}
+
+.ace-logo{
+    display: flex;
+    align-items: center;
+    background-color: bl;
+    margin-left: 15%;
+    transition: 500ms;
+    margin-right: 30%;
+    margin-top: 5px;
+    color: white;
+    padding-left: 10px;
+    padding-right:10px;
+    font-size: 2vw;
+    
+  
+}
+
+.ace-logo > img {     
+    max-width: 50%;
+    max-height:100%;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 499px){
+
+    .header{
+        width:100vw;
+    }
+
+    .header-item{
+        margin: 2px;
+    }
+
+    .ace-logo{        
+        margin-left: 0px;       
+        transition: 500ms;
+        width: 100px;
+        height: 50px;
+    }
+
+    .ace-logo > img { 
+        max-width: 100%;
+        margin: 0;      
+        
+    }
+
+    .navbar-toggler{
+        padding: 0;
+        width: 45px;
+        font-size: 0.9rem !important;      
+    }
+
+   
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 500px) and (max-width:600px){ 
+    
+    .header-item{
+        margin: 2px;
+    }
+
+    .ace-logo{
+        margin-left: 0px;       
+        transition: 500ms;
+    }
+
+    .ace-logo > img { 
+        width: 25vh;
+        height: auto; /*13vw */;    
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width:1285px){ 
+   
+    .header-item{
+        margin: 2px;
+    }
+
+    .ace-logo{
+        margin-left: 10%;      
+        transition: 500ms;  
+    }
+
+    .ace-logo > img { 
+        width: 25vh;
+        height: auto;    
+    }
+}
+
+
+/* @media only screen and (min-width:1025px) and ( max-width: 1190px){
+    .ace-logo{
+        margin-left: 15%;      
+        transition: 500ms;  
+    }
+} */

@@ -1,0 +1,15 @@
+.social-icons {
+        background-color:rgba(36,35,33,.4);
+        width: 100%;
+        max-width: 315px;       
+        height: 65px;
+        line-height: 65px;
+        text-align: center;
+       
+}
+
+.social-icons>a{    
+    margin: 0px 15px;
+    color: rgba(255, 255, 255, .5); 
+}
+
